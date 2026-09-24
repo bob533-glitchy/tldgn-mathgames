@@ -1,0 +1,12 @@
+{
+  "name": "online-count-server",
+  "version": "1.0.0",
+  "description": "Minimal WebSocket server that broadcasts a live online-visitor count.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
